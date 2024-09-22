@@ -18,7 +18,7 @@ class InstructorResourceTest {
     @Test
     void testHelloEndpoint() {
         given()
-          .when().get("/instructor")
+          .when().get("/api/instructor")
           .then()
              .statusCode(200)
              .body(is("Hello from Quarkus REST"));
@@ -32,7 +32,7 @@ class InstructorResourceTest {
           .when().body(json)
           .header("Content-Type", "application/json")
           .when()
-          .post("/instructors")
+          .post("/api/instructors")
           .then()
           .statusCode(201);
     }
