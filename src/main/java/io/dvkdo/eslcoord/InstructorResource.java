@@ -1,4 +1,4 @@
-package io.dvkdo;
+package io.dvkdo.eslcoord;
 
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;
