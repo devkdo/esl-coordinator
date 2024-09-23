@@ -1,4 +1,4 @@
-package io.dvkdo.eslcoord;
+package io.dvkdo.eslcoord.api;
 
 import io.quarkus.test.junit.QuarkusTest;
 

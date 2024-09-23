@@ -1,5 +1,6 @@
-package io.dvkdo.eslcoord;
+package io.dvkdo.eslcoord.api;
 
+import io.dvkdo.eslcoord.ParticleEntity;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;
