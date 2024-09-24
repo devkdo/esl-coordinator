@@ -1,6 +1,5 @@
 package io.dvkdo.eslcoord;
 
-import java.util.Map;
 import org.apache.commons.validator.routines.EmailValidator;
 import com.google.gson.Gson;
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
@@ -39,7 +38,7 @@ public class ContactEntity extends PanacheEntity {
 
     @Override
     public String toString() {
-        return new Gson().toJson(Map.of("First", firstname, "Last", lastname, "Email", email));
+        return new Gson().toJson(this);
     }
 
 }
